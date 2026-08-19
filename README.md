@@ -1,66 +1,36 @@
 # BOM Macros Repository
 
-This repository contains Bill of Materials (BOM) macros organized by project and date.
+This repository contains PEPS' Bill of Materials (BOM) macro workbooks, organized by production stage and construction type.
 
 ## Repository Structure
 
-The repository is organized into folders containing macro files for different projects and dates:
+The repository is organized into two top-level stages, each split by mattress construction type:
 
-### Project Folders
+### FG — Finished Goods (258 total workbooks across FG + SFG)
+- **Bonnel Macro** — BOM macros for Bonnell-spring finished mattresses (by brand/model: Caspio, Comfort, Double Decker, FR-Bonnel Memory, Sanibel Plush Memory Foam, etc.)
+- **Cirrus Macro** — BOM macros for Cirrus-brand finished mattresses
+- **Pocketed Macro** — BOM macros for pocketed-spring finished mattresses (Supreme, Ardene Plush Memory Foam, etc.)
 
-- **1.11.2025 SPG FINAL** - SPG project macros (November 1, 2025)
-- **24.10.2025 CRYSTAL FINAL** - Crystal project macros (October 24, 2025)
-- **24.10.25 ORG FINAL** - Organic project macros (October 24, 2025)
-- **DD** - DD project macros
-- **FEB-26** - February 2026 project macros (226 files)
-- **FR FINAL** - FR project macros (76 files)
-- **GP FINAL 29.10.2025** - GP project macros (October 29, 2025)
-- **HYP** - HYP project macros (23 files)
-- **ITA** - ITA project macros (5 files)
-- **Inspree 90D - List - 11.10.2025** - Inspree 90D project macros (October 11, 2025)
-- **SANIBEL-NEW MF - 09.10.2025** - Sanibel project macros (October 9, 2025)
-- **SPK NEW ECOM** - SPK E-commerce project macros
-- **SPK WOVEN** - SPK Woven project macros
-- **Spk crown top - NEW 13.11.25** - SPK Crown Top project macros (November 13, 2025)
-- **VIVAH** - Vivah project macros
-- **ZENIMO FINAL 29.10.2025** - Zenimo project macros (October 29, 2025)
-- **allure** - Allure project macros
-- **comfort MACRO** - Comfort project macros
-- **spk WOVEN 20.11.2025 - Copy** - SPK Woven project macros copy (November 20, 2025)
-- **spk knit 20.11.2025** - SPK Knit project macros (November 20, 2025)
+### SFG — Semi-Finished Goods
+- **Back Panel** — BOM macros for back panel components
+- **Bonnell** — BOM macros for Bonnell spring units (semi-finished stage)
+- **Pocketed** — BOM macros for pocketed spring units (semi-finished stage)
+- **Quilting** — BOM macros for quilted panel components
+- **Tuffting** — BOM macros for tufted panel components
 
 ## Usage
 
-Each folder contains macro files specific to its respective project. To use the macros:
-
-1. Navigate to the desired project folder
-2. Access the macro files relevant to your needs
-3. Follow the specific instructions within each macro file
-
-## File Naming Convention
-
-Folders are named using the following convention:
-- **Date format**: DD.MM.YYYY or MM-YYYY
-- **Project name**: Abbreviated project identifier
-- **Status**: FINAL indicates finalized versions
+Each macro-enabled workbook (`.xlsm`) generates the Bill of Materials for a specific product/size/color combination. Open the relevant file, run its macro, and it produces the ERP-ready BOM output for that item.
 
 ## Maintenance
 
-- Repository last updated: May 20, 2026
-- Version: v1.0
-- Total projects: 20
-
-## Notes
-
-- Some folders contain multiple files (e.g., FEB-26 has 226 files, FR FINAL has 76 files)
-- Duplicate folders exist for version control (e.g., spk WOVEN 20.11.2025 - Copy)
-- All macros are production-ready and tested
+- Current structure imported: 19 August 2026, from local working set "Source Macro -03.06.2026" (03 June 2026)
+- The previous ad-hoc, date-named folder structure (FEB-26, GP FINAL 29.10.2025, ZENIMO FINAL 29.10.2025, etc.) has been retired as outdated; its history remains available in this repository's earlier commits if needed for reference.
 
 ## Contact
 
-For questions or issues related to this repository, please contact the repository administrator.
+For questions or issues related to this repository, contact the repository administrator.
 
 ---
 
-**Repository**: PEPSADMIN/BOM-Macros  
-**Last Updated**: May 20, 2026
+**Repository**: PEPSADMIN/BOM-Macros
